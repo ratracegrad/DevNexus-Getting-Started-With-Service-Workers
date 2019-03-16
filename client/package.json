@@ -1,0 +1,36 @@
+{
+  "name": "mws-restaurant-stage-1",
+  "version": "1.0.0",
+  "description": "Demonstration of service workers",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .html,.js --fix",
+    "start": "gulp && python -m SimpleHTTPServer 8080"
+  },
+  "keywords": [
+    "responsive",
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "responsive",
+    "design",
+    "accessibility"
+  ],
+  "author": "Jennifer Bland",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-responsive": "^2.11.0"
+  }
+}
